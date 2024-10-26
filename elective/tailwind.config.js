@@ -7,9 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+<<<<<<< HEAD
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+=======
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+>>>>>>> a1a56416e78fb412ef4d47d4c23d6ac3a8914e03
       },
     },
   },
